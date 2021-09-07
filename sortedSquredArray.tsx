@@ -3,5 +3,6 @@
 const sortedSquaredArray = (array: number[]) => {
     return array.map(number => {
         return (number) * (number)
-    }).sort((a, b) => a - b)
+    })
+        .sort((a, b) => a - b)
 }
